@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-ts-button",
+  "name": "@clins/iu",
   "private": false,
   "version": "0.0.5",
   "type": "module",
@@ -23,7 +23,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "prepare": "npm run build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm version patch && npm publish"
   },
   "dependencies": {
     "react": "^18.2.0",
